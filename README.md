@@ -8,5 +8,5 @@ npm i
 Then run:
 
 ```bash
-node -p 5000 -t https://example.com/api
+node index.js -p 5000 -t https://example.com/api
 ```
