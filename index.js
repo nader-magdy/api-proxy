@@ -11,7 +11,7 @@ const { v4: uuidv4 } = require('uuid');
 // Define the command line options
 const optionDefinitions = [
     { name: "port", alias: "p", type: Number, defaultValue: 5000 },
-    { name: "target", alias: "t", type: String, defaultValue: "https://neurocpserv.azurewebsites.net" }
+    { name: "target", alias: "t", type: String, defaultValue: "https://sample.com/api" }
 ];
 commandLineArgs = require("command-line-args");
 // parse command line options
