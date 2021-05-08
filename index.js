@@ -103,9 +103,6 @@ server.on('upgrade', function (req, socket, head) {
         changeOrigin: true
     }, function (err) {
         console.error(err);
-        if (res) {
-            sendError(res, err);
-        }
     });
 });
 
